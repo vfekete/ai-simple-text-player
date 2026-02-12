@@ -1,0 +1,7 @@
+create application for true color ansi terminal (linux based) using UTF-8 character set. Application should be able to use ffmpeg and
+  gstreamer to play suppored audio files (mp3, flac,...) and during play should show small text based UI showing frequency bars using fast
+  fourier transformation. It should use known UTF-8 characters for play, stop, pause, next song, previous song. Characters (buttons)
+  should be mapped to space (play/pause) '<' (previous song), '>' (next song) and 's' or 'S' for stop. These buttons should also react on
+  mouse click. Look and feel similar to application bpytop. Layout of text UI: 10 characters tall for frequency spectrometer. 1 character
+  tall under for 4 buttons (aligned to center). Frequency spectrometer should be 20 characters wide. It sould be written in C++ compilable
+  under ubuntu 24.04lts and use ncurses (or any similar). The spectrometer should be able to refresh itself up to 100ms.
